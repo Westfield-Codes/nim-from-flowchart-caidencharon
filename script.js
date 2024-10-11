@@ -3,16 +3,15 @@
  * https://lucid.app/lucidchart/2018baaf-4c26-4a76-a0d5-93c97f444425/view
  */
 
+/* Global Variables */
+
+
 /** 
  * main  
  * Handles new Nim games with gametype choice simple or trainer and a play again option. 
  * @param none 
  * @return none
  */
-
-// global variables
-
-
 /* Main */
 function main(){
 
@@ -24,8 +23,6 @@ function main(){
  * @param none 
  * @return none
  */
-
-/* playNim */
 function playNim(){
 
 }
