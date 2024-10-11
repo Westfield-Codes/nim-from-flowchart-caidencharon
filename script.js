@@ -29,7 +29,13 @@ function main(){
  * @return none
  */
 function playNim(){
-    alert("Nim game played.");
+   let count = 0;
+    while (count < 20) {
+        userTurn();
+        if (count > 20) alert("CPU wins");
+        else cpuTurn();
+        if (count > 20) alert("userWins")
+    }
 }
 
 /** 
@@ -39,7 +45,8 @@ function playNim(){
  * @return none
  */
 function userTurn(){
-
+    count+=3; 
+    alert("user count 3");
 }
 
 /** 
@@ -49,5 +56,6 @@ function userTurn(){
  * @return none
  */
 function cpuTurn(){
-
+    count+=1; 
+    alert("cpu count 1. count is "+count);
 }
