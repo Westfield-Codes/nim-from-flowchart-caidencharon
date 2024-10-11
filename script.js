@@ -1,10 +1,11 @@
-/* Nim Trainer by [your name]
+/* Nim Trainer by [Caiden Charon]
  * based on this flowchart:
  * https://lucid.app/lucidchart/2018baaf-4c26-4a76-a0d5-93c97f444425/view
  */
 
 /* Global Variables */
-
+var trainer = false;
+var count = 0;
 
 /** 
  * main  
@@ -14,7 +15,11 @@
  */
 /* Main */
 function main(){
-
+   let again = true;
+   trainer = confirm("do you want to watch the computer win?");
+   playNim();
+   again = confirm("Play again?");
+   if (again == true) main();
 }
 
 /** 
@@ -24,7 +29,7 @@ function main(){
  * @return none
  */
 function playNim(){
-
+    alert("Nim game played.");
 }
 
 /** 
